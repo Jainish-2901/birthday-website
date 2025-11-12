@@ -302,7 +302,7 @@ function App() {
                 className="diary-trigger-btn"
                 onClick={openDiary}
               >
-                Read My Note 💌
+                Read My Note 💌👆
               </a>
               <a
                 type="button"
