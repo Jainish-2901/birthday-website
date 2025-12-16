@@ -6,7 +6,7 @@ import DiaryPage from './DiaryPage.jsx';
 
 // Get data from .env
 const data = {
-  name: import.meta.env.VITE_NAME || 'Jainish 👋',
+  name: import.meta.env.VITE_NAME || 'Jainam 👋',
 };
 
 function App() {
@@ -114,7 +114,7 @@ function App() {
   useEffect(() => {
     // Load the audio files
     // audioRef.current = new Audio('/assets/birthday-music.mp3');
-    audioRef.current = new Audio('/assets/dost.mp3');
+    audioRef.current = new Audio('/assets/Dooron_Dooron_ringtone.mp3');
     audioRef.current.loop = true;
     
     // Preload the confetti sound
@@ -275,14 +275,17 @@ function App() {
                 {/* --- FIX 2: Use data from .env file --- */}
                 {/* The text you want (like the Hindi text) MUST be in your .env file */}
                 <span id="wishText">
-                  कोई दिन खास नहीं चाहिए<br />
-                  याद दिलाने के लिए कि तू कितनी special है ✨<br />
-                  जहाँ जाती है, वहाँ मुस्कान छोड़ देती है 🌸<br />
-                  बस यही दुआ — तेरी ज़िन्दगी<br />
-                  हमेशा खुशियों से भरी रहे 🤍<br />
-                  Happy Birthday, meri best dost 💫<br />
-                  ~ Tera dost, Jainish 💌
+                  Dear Khushi, <br />
+                  तुम्हारे जन्मदिन की बहुत-बहुत शुभकामनाएँ 🎉🎂 <br />
+                  इतने साल हो गए हैं, जानता हूँ ये समय आसान नहीं रहा होगा ⏳😔 <br />
+                  फिर भी हार न मानकर तू लड़ी 💪🔥 <br />
+                  और अपने माँ–बाप की नज़रों में ऊपर आई 👨‍👩‍👧✨ <br />
+                  तुम्हारे आने वाले सारे साल ख़ुशियों से भर जाएँ 🌸😊🌈 <br />
+                  एक बार फिर से दिल से — जन्मदिन मुबारक हो 🎊🎁 <br />
+                  ख़ुशी जी (मैडम जी) 🌹 <br /><br />
+                  ~ Tera dost, Jainam 💌
                 </span>
+
                 
                 <br />
                 <span id="gradient-text">
@@ -308,7 +311,7 @@ function App() {
               <a
                 type="button"
                 href="https://www.linkedin.com/in/jainish-dabgar-87474a320"
-                title="Follow your friend Jainish"
+                title="Follow your friend Jainish on LinkedIn"
                 target='_blank'
                 rel="noopener noreferrer" 
               >
@@ -322,7 +325,7 @@ function App() {
                     title="Hey D, :)"
                     ref={heartIconRef}
                   />{' '}
-                  by Your Friend, Jainish 🫂
+                  by Your Friend, Jainam 🫂
                 </span>
               </a>
 

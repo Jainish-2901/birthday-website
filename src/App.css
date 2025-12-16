@@ -219,9 +219,9 @@ h5.wishText {
 #wishText {
   font-family: 'Indie Flower', cursive;
   font-size: 1.4rem; 
-  line-height: 1.4; 
+  line-height: 1.3; 
   color: #ffffff;
-  font-weight: 400;
+  font-weight: 100;
   -webkit-text-stroke: 0.1px #000;
   text-shadow:
     -1px -1px 0 #000,
